@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            color:white;
+            background-image: url('bg1.png');
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div class="fact">
+        <h1 class="heading" style="color:white">Factorial</h1>
+        <form>
+            Number: <input type="number" id="num1" placeholder="0"><br><br>
+            <button onclick="func()">Click</button>
+        </form>
+    </div>
+    </center>
+    <script>
+        
+        function func() {
+            function fact(n) {
+                var f = 1;
+                for (let i = 2; i <= n; i++) {
+                    f = f * i;
+                }
+                return f;
+            }
+            var n = document.getElementById("num1").value;
+            var a=document.getElementById("ans");
+            alert("The answer is "+fact(n));
+        }
+    </script>
+</body>
+
+</html>

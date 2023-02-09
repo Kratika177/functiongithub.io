@@ -1,0 +1,75 @@
+body{
+    background-image: url('bg1.png');
+}
+.heading{
+    font-family: cursive;
+    margin-top: 20px;
+    color:white;
+}
+.container{
+    margin-top: 20px;
+    justify-content: center;
+    padding: 50px;
+    border:2px solid #e0d9ef;
+    border-radius: 20px;
+    background-color: #e0d9ef;
+}
+
+.fact{
+    margin-top: 13%;
+}
+form{
+    padding:30px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #e0d9ef;
+    align-self: center;
+    font-size: 25px;
+    color:#3e2570;
+}
+form input{
+    padding:20px;
+    font-size:20px;
+    background-color: #e0d9ef;
+    border-radius: 10px;
+    border:2px solid #7430f8;
+}
+form button{
+    background-color: #7430f8;
+    padding:20px;
+    width: 300px;
+    border: 2px solid #7430f8;
+    border-radius: 10px;
+    color:white;
+    font-size:25px;
+}
+form button:hover{
+    background-color: #3e2570;
+    border:2px solid #3e2570;
+}
+
+.child{
+    display:block;
+    padding: 30px;
+    background-color: #7430f8;
+    color:white;
+    border-radius: 30px;
+    justify-content: center;
+    width:80%;
+    font-size:20px;
+    font-weight: bolder;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;
+    height: 100px;
+    text-decoration: none;
+}
+.child a{
+    text-decoration: none;
+    color:white;
+}
+.child:hover{
+    background-color: #3e2570;
+    color:white;
+}
+
+

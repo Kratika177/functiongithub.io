@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            color:white;
+            background-image: url('bg1.png');
+        }
+    </style>
+</head>
+
+
+<body>
+    <center>
+        <div class="fact">
+        <h1 class="heading" style="color:white">Check Palindrome</h1>
+        <form>
+            String: <input type="text" id="num1" placeholder="Enter string"><br><br>
+            <button onclick="func()">Click</button>
+        </form>
+    </div>
+    </center>
+    <script>
+        
+        function func() {
+            var n = document.getElementById("num1").value;
+            var cp=n;
+            
+                if(cp==(n.split('').reverse().join(''))){
+                    alert("String is Palindrome");
+                }
+                else{
+                    alert("String is not Palindrome");
+                }
+        }
+    </script>
+</body>
+
+</html>
